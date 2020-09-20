@@ -1,4 +1,4 @@
-function scrapCommentsWithoutReplies(){
+function scrapeCommentsWithoutReplies(){
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var result=[['Name','Comment','Time','Likes','Reply Count']];
   var vid = ss.getSheets()[0].getRange(1,1).getValue();
