@@ -1,0 +1,19 @@
+{
+    "firstName": "Ali",
+    "lastName": "Hassan",
+    "gender": "Male",
+    "age": 19,
+    "address": {
+        "streetAddress": "GT Road",
+        "city": "Lahore",
+        "dist":"Lahore",
+        "postalCode": "1111"
+    },
+    "phoneNumbers": [
+        { "type": "home", "number": "0423-111111" },
+        { "type": "mobile", "number": "0333-222222" }
+    ],
+    "pets":["Dog","Cat"],
+    "salary":null,
+    "isMarried":false
+}
