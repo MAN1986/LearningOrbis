@@ -1,19 +1,34 @@
 {
-    "firstName": "Ali",
-    "lastName": "Ahmad",
-    "gender": "Male",
-    "age": 19,
-    "address": {
-        "streetAddress": "GT Road",
-        "city": "Lahore",
-        "dist":"Lahore",
-        "postalCode": "1111"
-    },
-    "phoneNumbers": [
-        { "type": "home", "number": "0423-111111" },
-        { "type": "mobile", "number": "0333-222222" }
-    ],
-    "pets":["Dog","Cat"],
-    "salary":null,
-    "isMarried":false
-}
+    "persons": [
+      {
+        "firstName": "Ali",
+        "lastName": "Hasan",
+        "age": 19,
+        "address": {
+          "streetAddress": "GT Road",
+          "city": "Lahore"
+        },
+        "phoneNumbers": [
+          {"type": "home","number": "0423-111111"},
+          {"type": "mobile","number": "0333-222222"}
+        ],
+        "salary": null,
+        "isMarried": false
+      },
+      {
+        "firstName": "Ahmad",
+        "lastName": "Hamza",
+        "age": 28,
+        "address": {
+          "streetAddress": "M. A. Jinnah Road",
+          "city": "Karachi"
+        },
+        "phoneNumbers": [
+          {"type": "home","number": "021-111111"},
+          {"type": "mobile","number": "0333-3232323"}
+        ],
+        "salary": 80000,
+        "isMarried": true
+      }
+    ]
+  }
