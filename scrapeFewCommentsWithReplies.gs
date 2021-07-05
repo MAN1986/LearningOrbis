@@ -1,4 +1,4 @@
-function scrapeFewCommentsWithRelies(){
+function scrapeFewCommentsWithReplies(){
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var result=[['Name','Comment','Time','Likes','Reply Count','Reply Author','Reply','Published','Updated']];
   var vid = ss.getSheets()[0].getRange(1,1).getValue();
